@@ -2,9 +2,11 @@
 
 This repository contains the code to reproduce the results from the paper [Latent Partition Implicit with Surface Codes for 3D Representation]().
 
-<video src="video/show.mp4"></video>
+#### demo
 
-If you find our code or paper useful, please consider citing
+![LPI](img\LPI.gif)
+
+If you find our code or paper useful, please consider citing:
 
     @inproceedings{LPI,
         title = {Latent Partition Implicit with Surface Codes for 3D Representation},
@@ -13,4 +15,5 @@ If you find our code or paper useful, please consider citing
         year = {2022}
     }
 
-Deployment instructions are to be finished soon.
+#### Deployment instructions are to be finished soon.
+
