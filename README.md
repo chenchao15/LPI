@@ -2,7 +2,7 @@
 
 This repository contains the code to reproduce the results from the paper [Latent Partition Implicit with Surface Codes for 3D Representation]().
 
-#### demo
+### demo
 
 <img src="img/LPI.gif" alt="Webp.net-gifmaker" style="zoom:100%;" />
 
