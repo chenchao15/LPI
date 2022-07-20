@@ -11,3 +11,4 @@ If you find our code or paper useful, please consider citing
         year = {2022}
     }
 
+Deployment instructions are to be finished soon.
