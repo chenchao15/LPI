@@ -1,6 +1,8 @@
 # Latent Partition Implicit with Surface Codes for 3D Representation
 
-This repository contains the code to reproduce the results from the paper **Latent Partition Implicit with Surface Codes for 3D Representation**.
+This repository contains the code to reproduce the results from the paper [Latent Partition Implicit with Surface Codes for 3D Representation](https://arxiv.org/abs/2207.08631 ).
+
+<video src="C:\Users\陈超\Downloads\4.mp4"></video>
 
 If you find our code or paper useful, please consider citing
 
