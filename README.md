@@ -32,7 +32,7 @@ Then, to install the dependencies, run:
 pip install -r requirements.txt
 ```
 
-Next, for evaluation of the models, complie the extension modules, which are provided by [Occupancy Networks]([autonomousvision/occupancy_networks: This repository contains the code for the paper "Occupancy Networks - Learning 3D Reconstruction in Function Space" (github.com)](https://github.com/autonomousvision/occupancy_networks)). run:
+Next, for evaluation of the models, complie the extension modules, which are provided by [Occupancy Networks](https://github.com/autonomousvision/occupancy_networks). run:
 
 ```
 python setup.py build_ext --inplace
@@ -47,7 +47,7 @@ cd nn_distance
 ./tf_nndistance_compile.sh
 ```
 
-If you encounter any errors, please refer to the relevant instructions of [PU-net]([yulequan/PU-Net: PU-Net: Point Cloud Upsampling Network, CVPR, 2018 (https://arxiv.org/abs/1801.06761) (github.com)](https://github.com/yulequan/PU-Net)) and modify the compile scripts slightly.
+If you encounter any errors, please refer to the relevant instructions of [PU-net](https://github.com/yulequan/PU-Net) and modify the compile scripts slightly.
 
 ### Dataset
 
