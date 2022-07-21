@@ -23,7 +23,7 @@ We support ```python3```, you can first create an virture environment called ```
 
 ```
 python -m venv LPI_venv
-source venv/bin/activate
+source LPI_venv/bin/activate
 ```
 
 Then, to install the dependencies, run:
