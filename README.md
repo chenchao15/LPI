@@ -2,7 +2,7 @@
 
 This repository contains the code to reproduce the results from the paper "Latent Partition Implicit with Surface Codes for 3D Representation".
 
-[**Homepage**](https://chenchao15.github.io/LPI_page/) **|**[**Paper**](https://arxiv.org) **|** [**Supp**](https://cloud.tsinghua.edu.cn/f/5d690a9ed5054a8e9416/?dl=1)
+[**Homepage**](https://chenchao15.github.io/LPI_page/) **|**[**Paper**](https://arxiv.org/abs/2207.08631) **|** [**Supp**](https://cloud.tsinghua.edu.cn/f/5d690a9ed5054a8e9416/?dl=1)
 
 If you find our code or paper useful, please consider citing:
 
