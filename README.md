@@ -51,7 +51,7 @@ If you encounter any errors, please refer to the relevant instructions of [PU-ne
 
 ### Dataset
 
-To be finished...
+You can [download](https://pan.baidu.com/s/1LlwlmhN3ZyPhQfpPALdoog) our preprocessed ShapeNet dataset with the access  code  `bycc`.  And put all `samples_*` folder and `class_list` in `data`
 
 ### Training
 
