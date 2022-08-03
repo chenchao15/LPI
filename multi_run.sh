@@ -1,7 +1,7 @@
 #!/bin/bash
 
 classname=02691156
-for i in {0..3}
+for i in {0..300}
 do
     python LPI.py \
 	--data_dir data/ \

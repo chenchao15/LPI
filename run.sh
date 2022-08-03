@@ -7,7 +7,7 @@ python LPI.py \
         --batch_size 1 \
         --gauss_value 1 \
         --start_index 0 \
-	--out_dir output/ \
+	--out_dir output/single_shape/ \
 	--class_idx $classname \
 	--train \
 	--dataset other \
@@ -18,7 +18,7 @@ python LPI.py \
         --pattern_num 100 \
         --gauss_value 1 \
         --start_index 0 \
-        --out_dir output/ \
+        --out_dir output/single_shape/ \
         --class_idx $classname \
         --dataset other \
         --CUDA 6
