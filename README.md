@@ -51,7 +51,13 @@ If you encounter any errors, please refer to the relevant instructions of [PU-ne
 
 ### Dataset
 
-You can [download](https://pan.baidu.com/s/1LlwlmhN3ZyPhQfpPALdoog) our preprocessed ShapeNet dataset with the access  code  `bycc`.  And put all `samples_*` folder and `class_list` in `data`.
+You can [download](https://pan.baidu.com/s/1LlwlmhN3ZyPhQfpPALdoog) our preprocessed ShapeNet dataset with the access  code  `bycc`.  
+
+- samples_*:  preprocessing data of ShapeNet (sample points and ground truth points).
+- centers_100_*:  100 centers sampled by fps algorithm for each object. 
+- class_list:  list of objects in each category of ShapNet.
+
+Put all `samples_*` folders, `centers_100_*` folders and `class_list` in `data`.
 
 ### Training
 
@@ -66,6 +72,8 @@ Training and evaluating all 3d objects of a class:
 ```
 ./multi_run.sh
 ```
+
+You can change the `class_name` in the script to another category of ShapeNet.  And note that modify the number of for loops to the number of objects of the current category.
 
 ### Evaluation
 
