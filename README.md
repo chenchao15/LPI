@@ -53,9 +53,9 @@ If you encounter any errors, please refer to the relevant instructions of [PU-ne
 
 You can [download](https://pan.baidu.com/s/1LlwlmhN3ZyPhQfpPALdoog) our preprocessed ShapeNet dataset with the access  code  `bycc`.  
 
-- samples_*:  preprocessing data of ShapeNet (sample points and ground truth points).
-- centers_100_*:  100 centers sampled by fps algorithm for each object. 
-- class_list:  list of objects in each category of ShapNet.
+- `samples_*`:  preprocessing data of ShapeNet (sample points and ground truth points).
+- `centers_100_*`:  100 centers sampled by fps algorithm for each object. 
+- `class_list`:  list of objects in each category of ShapNet.
 
 Put all `samples_*` folders, `centers_100_*` folders and `class_list` in `data`.
 
