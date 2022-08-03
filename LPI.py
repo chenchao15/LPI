@@ -54,7 +54,7 @@ GAUSS_VALUE = a.gauss_value
 START_INDEX = a.start_index
 TEST_LOCAL = a.test_local
 PATTERN_POINT_NUM = int(POINT_NUM / PATTERN_NUM)
-INPUT_DIR = os.path.join(a.data_dir, 'cc_' + a.class_idx)
+INPUT_DIR = os.path.join(a.data_dir, 'samples_' + a.class_idx)
 OUTPUT_DIR = a.out_dir
 if(a.dataset=="shapenet" or a.dataset=="other"):
     GT_DIR = '/data/mabaorui/project4/data/ShapeNet/' + a.class_idx + '/'
