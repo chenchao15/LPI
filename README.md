@@ -81,7 +81,3 @@ Evaluating all 3d objects of a class:
 ./multi_test.sh
 ```
 
-To be finished...
-
-#### Deployment instructions are to be finished soon.
-
