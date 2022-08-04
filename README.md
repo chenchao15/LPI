@@ -57,7 +57,7 @@ You can [download](https://pan.baidu.com/s/1LlwlmhN3ZyPhQfpPALdoog) our preproce
 - `centers_100_*`:  100 centers sampled by fps algorithm for each object. 
 - `class_list`:  list of objects in each category of ShapNet.
 
-Put all `samples_*` folders, `centers_100_*` folders and `class_list` in `data`.
+Put all `samples_*` folders, `centers_100_*` folders or any of the categories you want to try, and `class_list` in `data`.
 
 ### Training
 

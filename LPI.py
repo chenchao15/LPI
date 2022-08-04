@@ -549,7 +549,7 @@ with tf.Session(config=config) as sess:
         aa = [[],[],[],[],[],[],[],[]]
         bb = [[],[],[],[],[],[],[],[]]
         start_time_5000 = time.time()
-        for i in range(2):
+        for i in range(40002):
             start_time = time.time()
             epoch_index = 1 # np.random.choice(SHAPE_NUM, SHAPE_NUM, replace = False)
             loss_i = 0
