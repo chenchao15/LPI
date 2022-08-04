@@ -546,8 +546,6 @@ with tf.Session(config=config) as sess:
         POINT_NUM_GT_bs = np.array(POINT_NUM_GT).reshape(1,1)
         points_input_num_bs = np.array(POINT_NUM).reshape(1,1)
         
-        aa = [[],[],[],[],[],[],[],[]]
-        bb = [[],[],[],[],[],[],[],[]]
         start_time_5000 = time.time()
         for i in range(40002):
             start_time = time.time()
@@ -560,7 +558,7 @@ with tf.Session(config=config) as sess:
                 point_gt = pointclouds[:,rt,:,:].reshape(BS,POINT_NUM,3)
                 feature_bs_t = feature_bs[:,:,:].reshape(BS,-1,SHAPE_NUM)
                 cent = all_centers[:,:,:].reshape(BS, PATTERN_NUM, 3)
-                _, loss_val, ggp, ptc = sess.run([loss_optim, loss, g_points, points_to_centers],feed_dict={input_points_3d:input_points_2d_bs,points_target:point_gt,feature:feature_bs_t,center: cent, points_target_num:POINT_NUM_GT_bs,points_input_num:points_input_num_bs})
+                _, loss_val = sess.run([loss_optim, loss],feed_dict={input_points_3d:input_points_2d_bs,points_target:point_gt,feature:feature_bs_t,center: cent, points_target_num:POINT_NUM_GT_bs,points_input_num:points_input_num_bs})
                 loss_i = loss_i + loss_val
 
             loss_i = loss_i / SHAPE_NUM
